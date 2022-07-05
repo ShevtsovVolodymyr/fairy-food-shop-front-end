@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body,
+#app,
+main {
+  min-height: 100vh;
+}
+
+body {
+  background: #4d4d4d;
+}
+
+main {
+  padding: 80px 20px 0;
+}
