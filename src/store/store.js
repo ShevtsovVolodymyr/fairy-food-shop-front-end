@@ -25,6 +25,9 @@ export const store = createStore({
     resetFilteredProducts(state) {
       state.displayedProducts = state.allProducts;
     },
+    addCart(state, cart) {
+      state.cart = cart;
+    },
     addProductToCart(state, productId) {
       const newProduct = state.allProducts.find(
         product => product.id === productId
