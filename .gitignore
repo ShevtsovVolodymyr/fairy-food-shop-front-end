@@ -9,6 +9,8 @@ lerna-debug.log*
 
 node_modules
 .firebase
+firebase.json
+.firebaserc
 .DS_Store
 dist
 dist-ssr
